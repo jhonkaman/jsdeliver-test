@@ -1,4 +1,45 @@
-body {
-  color: red;
-  background-color: pink;
+/* buttons.css */
+
+/* BUTTON */
+.button {
+  background-color: #eee;
+  border: solid 2px #eee;
+  border-radius: 4px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+}
+
+.button-outline {
+  /* background-color: #eee; */
+  border: solid 2px #eee;
+  border-radius: 4px;
+  /* color: #eee; */
+  padding: 8px;
+  text-decoration: none;
+}
+
+.button-outline:hover {
+  background-color: #ddd;
+  border-color: #ddd;
+  color: #fff;
+}
+
+/* FLOATING BUTTON */
+.floating-button {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+}
+/* container.css */
+
+/* CONTAINER */
+.container {
+  padding: 8px;
+  max-width: 900px;
+  margin: auto;
 }
